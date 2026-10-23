@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project
+.env
+data/*
+!data/raw/.gitkeep
+*.duckdb
+*.duckdb.wal
+.ipynb_checkpoints/
+
+# macOS Finder Folder Specifications
+.DS_Store
